@@ -200,7 +200,6 @@ schtasks /Create /TN "ZarpellonScraper" /SC MINUTE /MO 30 /F ^
 
 ## 11) Boas práticas de segurança
 
-- Nunca exponha `logininfo.env` em repositórios públicos.
 - Evite compartilhar logs contendo URLs internas de sessão.
 - Troque a senha do usuário periodicamente e aplique MFA se o site suportar.
 
